@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calculator.js"></script>
+
+</head>
+    <body>
+        <h2>JavaScript in Body</h2>
+        <h3 id="SPU"></h3>
+        <p id="demo"></p>
+        คำนวนผลคูณตัวเลข 2 ตัว = <span id="calculator"></span><br>
+        <h3>คำแม่สูตรคูณ</h3>
+        <p id="multiply"></p>
+    </body>
+
+<script>
+    var num =prompt("กรุณาใส่แม่สูตรคูณ")
+    document.getElementById("demo").innerHTML = "Atinan Janrisil";
+    document.getElementById("SPU").innerHTML = "Sripatum University, Chonburi";
+    document.getElementById("calculator").innerHTML = myFunction(5,10);
+    document.getElementById("multiply").innerHTML = multiply(num);
+</script>
+
+</body>
+</html>
